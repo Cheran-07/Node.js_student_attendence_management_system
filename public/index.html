@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Attendance Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- LOGIN VIEW -->
+  <div id="loginView" class="view centered">
+    <div class="card login-card">
+      <h1>📋 Smart Attendance</h1>
+      <p class="subtitle">College Attendance Management System</p>
+      <form id="loginForm">
+        <label>Email</label>
+        <input type="email" id="loginEmail" required placeholder="you@college.edu">
+        <label>Password</label>
+        <input type="password" id="loginPassword" required placeholder="••••••••">
+        <button type="submit" class="btn primary full">Sign In</button>
+        <div id="loginError" class="error-text"></div>
+      </form>
+      <div class="demo-creds">
+        <strong>Demo accounts</strong>
+        <div>Admin: admin@college.edu / admin123</div>
+        <div>Faculty: meera.rao@college.edu / faculty123</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- APP SHELL (shown after login) -->
+  <div id="shell" class="hidden">
+    <header class="topbar">
+      <div class="brand">📋 Smart Attendance</div>
+      <nav id="navTabs" class="nav-tabs"></nav>
+      <div class="user-box">
+        <span id="userName"></span>
+        <button id="logoutBtn" class="btn small">Logout</button>
+      </div>
+    </header>
+    <main id="mainContent" class="main-content"></main>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

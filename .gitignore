@@ -1,0 +1,6 @@
+node_modules/
+attendance.db
+attendance.db-journal
+attendance.db-wal
+attendance.db-shm
+*.log

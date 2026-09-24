@@ -59,8 +59,6 @@ attendance-app/
 │   ├── app.js               # Frontend logic (vanilla JS)
 │   └── style.css             # Styling
 ├── package.json
-├── APPROACH.md            # Approach note, assumptions, architecture, trade-offs
-└── AI_USAGE_REPORT.md      # Mandatory AI usage disclosure
 ```
 
 ## API Overview

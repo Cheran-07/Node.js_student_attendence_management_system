@@ -1,7 +1,7 @@
 # Smart Attendance Management
 
-A working prototype for **Assignment 1 — Smart Attendance Management** (Edumerge Solutions
-Pre-Drive Product Engineering Assignment).
+A working prototype for **Assignment 1 — Smart Attendance Management** Edumerge Solutions
+Pre-Drive Product Engineering Assignment.
 
 See **APPROACH.md** for the full write-up: problem understanding, product decisions, data model,
 architecture, trade-offs, edge cases, and validation. See **AI_USAGE_REPORT.md** for the mandatory
